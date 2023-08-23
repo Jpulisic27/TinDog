@@ -151,6 +151,33 @@ p {
     }
 }
 
+@media  (max-width: 600px) {
+
+    
+    #title{
+        text-align: center;
+    }
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
+
+    
+    html {
+        font-size: 90%;
+        overflow-x: hidden;
+    }
+
+    #pricing {
+        width: 100%;
+        text-align: none;
+    }
+
+    /* body {
+        font-size: 80%;
+    } */
+}
+
 /* Call to action Section */
 
 #cta {
